@@ -1,0 +1,14 @@
+1. current output.txt is for cloudflare resolver.
+    - rename to follow format "cloudflare_output.txt"
+2. search output text file for "timeout" to see areas where ptr query returned information.
+    - alternatively search for "udp"
+    - alternatively search for "max number of cnames"
+    - alternatively search for "dns response does not answer the query"
+3. output for umd.edu:
+jbcallv@xps:~/Classes/CSCI780/project/dnsclient$ ./dnssd umd.edu
+2024/03/27 15:39:15 GetServiceBrowserDomains: names: [pc-printer-discovery.umd.edu.]
+2024/03/27 15:39:15 GetDefaultServiceBrowserDomain: err: RCODE was not SUCCESS: NXDOMAIN (rcode=3)
+2024/03/27 15:39:15 GetLegacyServiceBrowserDomain: name: pc-printer-discovery.umd.edu.
+Service Browser Domains:
+	pc-printer-discovery.umd.edu.
+
