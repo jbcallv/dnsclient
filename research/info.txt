@@ -17,3 +17,16 @@ Service Browser Domains:
     - this command will remove any keznews services from output as there are
         wayyyy too many of these
     - the result should be any non keznews.com services
+
+
+
+--- keznews should have its own section ---
+links:
+- https://news.ycombinator.com/item?id=29706484
+- https://www.reddit.com/r/mullvadvpn/comments/wxx5yo/so_whats_the_deal_with_keznews/
+- https://news.ycombinator.com/item?id=29706957
+
+
+
+5. for google:
+sed '/visit\.keznews\.com/ {N; d;}' google_udp_out.txt | grep -B 2 -A 10 'Services:'
