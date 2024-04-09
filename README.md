@@ -14,3 +14,6 @@ DNS-over-HTTPs.
 8. `source ~/.profile`
 9. `go version`
 10. Ensure output is `1.21.6`
+
+# Google Drive
+- https://drive.google.com/drive/folders/1bItJbXXfyV1VMWlIkJEKNVHlThUsHGjQ?usp=sharing
